@@ -16,7 +16,7 @@ import { ErrorMessage } from 'components/Error/ErrorMessage'
 
 import { Spinner } from 'components/Spinner'
 
-import styles from './styles'
+import styles from '../styles'
 
 export default function SignIn () {
   const user = useContext(AuthContext)
